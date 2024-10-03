@@ -19,6 +19,7 @@
         * Shows examples of different SQL queries
     * [`log database`](src/main_workspace/sql_logging_example.py): Creates a basic database logger using SQLite3 and Python
     * [`Test database`](src/tests/test_sql.py): Creates a basic database tester using SQLite3 and Python. This tests that the operations on a database behave as expected. It creates a separate DB in memory for testing.
+* Note: The python script will not delete the old .dp files between runs. Therefore running the python files multiple times will result in duplicate entries in dbs.
 
 ## Set up instructions using VS code + Docker: 
 ### Docker

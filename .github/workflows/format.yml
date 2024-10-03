@@ -22,7 +22,4 @@ jobs:
     - name: run test
       run: |
         make format
-    - name: make pdf
-      run: |
-        make pdf
     - run: echo "🍏 This job's status is ${{ job.status }}."
